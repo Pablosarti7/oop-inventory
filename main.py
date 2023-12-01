@@ -18,9 +18,9 @@ inventory.add_product(product_four)
 
 user = User()
 authentication = Authentication(user)
-authentication.register('Pablo Sarti', 'paulsarti7@gmail.com', '12345')
+authentication.register('Pablo Sarti', 'fakemail@gmail.com', '12345')
 authentication.register('Pablo Sarti', 'python@gmail.com', '67890')
-authentication.login('paulsarti7@gmail.com', '12345')
+authentication.login('fakemail@gmail.com', '12345')
 authentication.login('python@gmail.com', '67890')
 
 
